@@ -11,3 +11,8 @@ To run:
 java -jar target/xrip.jar -h
 
 xrip.jar is completely self-contained, including Clojure and everything else you need.
+
+TODO
+
+- filter by predicates
+- namespace support
