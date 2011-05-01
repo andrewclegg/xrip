@@ -1,0 +1,13 @@
+xrip -- pull fields out of large XML documents efficiently.
+
+Uses the XOM library (http://www.xom.nu/) via a Clojure wrapper (copied from https://github.com/marktriggs/xml-picker-seq).
+
+To build (requires Maven 2):
+
+mvn package
+
+To run:
+
+java -jar target/xrip.jar -h
+
+xrip.jar is completely self-contained, including Clojure and everything else you need.
